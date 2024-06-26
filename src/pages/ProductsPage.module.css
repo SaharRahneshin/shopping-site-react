@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.noResults {
+    color: #606c38;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 30px 15px;
+  
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .products {
+        justify-content: center;
+    }
+    .noResults {
+       font-size: 1rem;
+       margin: 20px 30px; 
+    }
+   
+}

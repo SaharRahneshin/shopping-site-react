@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    min-height: 600px;
+    width: 100%;
+}
+.container img {
+    width: 300px;
+    padding: 15px 25px;
+    border: 2px solid #bc6c25;
+    border-radius: 50px;
+    margin: 10px;
+    margin-right: 50px;
+}
+.information {
+    width: 100%;
+    border: 2px solid #bc6c25;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 50px;
+}
+.information h3 {
+    color: #bc6c25;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.description {
+    color: #606c38;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+.category {
+    margin-bottom: 10px;
+    color: #283618;
+}
+.price {
+    color: #283618;
+}
+.category svg, 
+.information span svg {
+    color: #bc6c25;
+    margin-right: 10px;
+}
+.information div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.information a {
+    display: flex;
+    align-items: center;
+    background-color: #606c38;
+    padding: 5px 10px;
+    color: #dda15e;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.information a:hover{
+    color: #283618;
+    background-color: #bc6c25;
+    transition: all 0.2s ease-in-out;
+}
+.information a svg {
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        min-height: auto;
+    }
+    .information {
+        padding: 15px;
+    }
+    .information h3 {
+        font-size: 1.3rem; 
+        margin-bottom: 20px; 
+    }
+    .description {
+        font-size: 1rem;
+      
+    }
+}
