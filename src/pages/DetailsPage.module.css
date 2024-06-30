@@ -72,6 +72,9 @@
         align-items: center;
         min-height: auto;
     }
+    .container img {
+        margin-left: 50px;
+    }
     .information {
         padding: 15px;
     }

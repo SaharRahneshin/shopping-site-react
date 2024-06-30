@@ -36,8 +36,9 @@
     background-color: #bc6c25;
     transition: all 0.2s ease-in-out;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .sidebar {
        margin-bottom: 50px;
+       margin-left: 20px;
     }
 }
