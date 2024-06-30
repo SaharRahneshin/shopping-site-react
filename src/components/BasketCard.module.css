@@ -1,5 +1,6 @@
 .card {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     border: 2px solid #bc6c25;
@@ -37,4 +38,7 @@
     background-color: #bc6c25;
     color: #283618;
     transition: all 0.2s ease-in-out;
+}
+@media (max-width: 480px) {
+
 }

@@ -41,16 +41,14 @@
   }
 @media (max-width: 480px) {
     .sidebar {
-      width: 100%;
+      width: 70%;
       flex-direction: column;
     }
     .sidebar ul {
       display: flex;
       justify-content: center;
+      flex-direction: column;
     }
   
-    .sidebar ul li {
-      margin: 10px;
-      padding: 10px;
-    }
+    
   }
